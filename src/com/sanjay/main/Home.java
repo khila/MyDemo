@@ -5,7 +5,8 @@ import com.sanjay.home.entities.DiningHall;
 import com.sanjay.home.entities.kitchen;
 public class Home {
 
-	private kitchen kitchen;
+	private kitchen kitchen;private DiningHall dininghall;
+	private BedRoom bedroom;
 	public kitchen getKitchen() {
 		return kitchen;
 	}
@@ -24,6 +25,10 @@ public class Home {
 	public void setBedroom(BedRoom bedroom) {
 		this.bedroom = bedroom;
 	}
-	private DiningHall dininghall;
-	private BedRoom bedroom;
+	
+	void hello()
+	{
+		System.out.println("are u looking home");
+	}
+	
 }
