@@ -5,7 +5,7 @@ import com.sanjay.home.entities.DiningHall;
 import com.sanjay.home.entities.kitchen;
 public class Home {
 /**
- * This is home
+ * This is home r2
  */
 	private kitchen kitchen;private DiningHall dininghall;
 	private BedRoom bedroom;
