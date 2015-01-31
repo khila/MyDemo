@@ -4,7 +4,9 @@ import com.sanjay.home.entities.BedRoom;
 import com.sanjay.home.entities.DiningHall;
 import com.sanjay.home.entities.kitchen;
 public class Home {
-
+/**
+ * This is home
+ */
 	private kitchen kitchen;private DiningHall dininghall;
 	private BedRoom bedroom;
 	public kitchen getKitchen() {
